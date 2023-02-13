@@ -7,8 +7,8 @@ class Works extends Component {
         return (
 
             <div className="container-cursos pb-5 mt-5">
-            <div>
-            <p className="projects mt-5">Aquí encontraras información sobre nuestros cursos</p>
+            <div className="projects">
+            <h1 className="mt-5">Aquí encontraras información sobre nuestros cursos</h1>
             </div>
               <div class="card-deck m-4">
               <div class="card col- m-50 w-50 h-50">

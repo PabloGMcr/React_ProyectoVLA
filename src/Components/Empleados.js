@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, Fragment} from 'react';
 import axios from 'axios'
 
 class Empleados extends Component {
@@ -25,7 +25,12 @@ class Empleados extends Component {
     render() { 
         return (
 
-<div class="table w-100 p-5">
+          <Fragment>
+
+            <header className='mt-5 pt-5'>
+              <h1 className='mt5 p-5'>Colaboradores:ejercicio API</h1>
+            </header>
+            <div class="table w-100 ">
 <table class="table-striped">
       <thead class="thead">
         <tr>
@@ -62,6 +67,9 @@ class Empleados extends Component {
       </tbody>
     </table>
 </div>
+          </Fragment>
+
+
 
 
         );
@@ -71,42 +79,3 @@ class Empleados extends Component {
 export default Empleados;
 
 
-
-/*
-
-            <div className='container-empleados'>
-                <table class="table table-bordered">
-                    <thead className="thead">
-                        <tr>
-                        <th scope="col">ID</th>
-                        <th scope="col">Nombre</th>
-                        <th scope="col">N° teléfono</th>
-                        <th scope="col">Email</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                        <th scope="col">ID</th>
-                        {this.state.empleados.map(data => 
-
-                            <td>{data.id}</td>
-
-                            )}
-                        
-                        </tr>
-                        <tr>
-                        <th scope="col">Nombre</th>
-                       
-                        </tr>
-                        <tr>
-                        <th scope="col">N° Teléfono</th>
-                        
-                        </tr>
-                        <tr>
-                        <th scope="col">Email</th>
-                        
-                        </tr>
-                    </tbody>
-                    </table>
-            </div>
-*/

@@ -21,7 +21,7 @@ class Home extends Component {
                   mejor empleo empieza aquí.</p>
                 
             <NavLink to="/works"><button type="button" 
-            class="btn btn-outline-dark mt-5 h-25"><i class="bi bi-laptop-fill mr-2"></i>Ver clases gratuitas</button>
+            class="btn btn-warning mt-5 h-25"><i class="bi bi-laptop-fill mr-2"></i>Ver todas clases</button>
             </NavLink>
             </div>
 

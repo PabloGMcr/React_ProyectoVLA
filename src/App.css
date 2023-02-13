@@ -154,7 +154,7 @@ nav{
   margin-top: 350px;
 }
 
-.btn{
+/* .btn{
   width: 90px;
   height: 40px;
   background: blue ;
@@ -162,7 +162,7 @@ nav{
   padding: 10px;
   font-size: 10px;
   align-items: center;
-}
+} */
 
 .first{
 
@@ -244,8 +244,9 @@ li{
 
 .projects{
   text-align: center;
-  margin: 20px;
-  margin-top: 10px;
+  margin: 30px;
+  margin-top: 40px;
+  
   display: inline-block;
   font-family: Poppins;
 }
@@ -343,6 +344,8 @@ li{
 }
 
 
+
+
 /*                                               COMMENTS EMPLEADOS                                               */
 
 .row-empleados{
@@ -411,33 +414,27 @@ li{
 
 /*                                               TABLE EMPLEADOS                                               */
 
-.container-empleados{
-  padding: 80px;
-}
+
 
 .thead{
   background: #0A3143;
   color: #fff;
 }
 
-
-
-
-
-
-
-
-
 .table{
   margin: auto;
-  margin-top: 200px;
+  margin-top: 5px;
+  margin-bottom: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding:0;
 }
 .separador{
   border-bottom: 1px dotted #000;
 }
+
+
 
 
 .hookform{
