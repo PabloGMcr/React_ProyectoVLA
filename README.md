@@ -1,3 +1,13 @@
+
+# Proyecto React VLA
+
+El objetivo principal elaborar una pagina en React con las basada en la pagina oficial de VLA Oficial.
+https://www.vla.academy/
+
+El estudiante debe elaborar un prototipo de una pagina WEB y en una presentación de PPT, Prezi , etc. deberá exponer como mejoraría la pagina actual , el motivo del diseño elaborado , pros y  contras .
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
